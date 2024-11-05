@@ -88,7 +88,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className="absolute flex items-center justify-center text-white font-bold z-50"></div>
+            {/*<div className="absolute flex items-center justify-center text-white font-bold z-50"></div>*/}
           </BackgroundGradientAnimation>
         )}
         <div
@@ -105,7 +105,7 @@ export const BentoGridItem = ({
           </div>
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className="absolute flex w-fit lg:gap-5 gap-1 lg:-right-2 -right-3">
+            <div className="absolute flex w-fit lg:gap-5 gap-1 lg:right-4 -right-3">
               <div className="flex flex-col lg:gap-8 md:gap-3 gap-3">
                 {leftList.map((item, index) => (
                   <span
