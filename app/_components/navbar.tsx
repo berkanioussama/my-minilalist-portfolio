@@ -4,20 +4,32 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 
 const Navbar = () => {
 
-  const navItems = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "About",
-      link: "/about",
-    },
-  ];
-
   return (
     <FloatingNav navItems={navItems}/>
   );
 }
+
+const navItems = [
+  {
+    name: "Home",
+    link: "#home",
+  },
+  {
+    name: "About",
+    link: "#about",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "Testimonials",
+    link: "#testtimonials",
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+  },
+];
  
 export default Navbar;
