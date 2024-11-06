@@ -1,7 +1,8 @@
 import Hero from "@/app/_components/hero";
 import Navbar from "@/app/_components/navbar";
 import Grid from "@/app/_components/grid";
-import RecentProjects from "./_components/recent_projects";
+import RecentProjects from "@/app/_components/recent_projects";
+import Testimonials from "@/app/_components/testimonials";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
         <Navbar/>
         <Hero />
         <Grid />
-        <RecentProjects/>
+        <RecentProjects />
+        <Testimonials/>
       </div>
     </div>
   );
