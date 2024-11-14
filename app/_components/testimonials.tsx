@@ -1,5 +1,6 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import SectionTitle from "@/app/_components/section_title";
+import { testimonials } from "@/data/testimonials";
 
 const Testimonials = () => {
   return (
@@ -7,31 +8,13 @@ const Testimonials = () => {
       <SectionTitle title="Kind words from" coloredPart="satisfied clients" />
       <div className="flex flex-col items-center justify-center max-lg:mt-10 mt-10">
         <InfiniteMovingCards
-          items={items}
-          direction="right"
+          items={testimonials}
+          direction="left"
           speed="slow"
         />
       </div>
     </section>
   );
 }
-
-const items = [
-  {
-    title: "Amazing",
-    quote: "I am very happy with the product. It really helped me. I am so happy with the product. It really helped me.",
-    name: "Berkanioussama",
-  },
-  {
-    title: "Good job",
-    quote: "It really helped me. I am so happy with the product. It really helped me.",
-    name: "Berkanioussama",
-  },
-  {
-    title: "Good job",
-    quote: "It really helped me. I am so happy with the product. It really helped me.",
-    name: "Berkanioussama",
-  }
-]
  
 export default Testimonials;
