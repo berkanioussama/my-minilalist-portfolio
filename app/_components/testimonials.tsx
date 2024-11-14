@@ -1,12 +1,10 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import SectionTitle from "@/app/_components/section_title";
 
 const Testimonials = () => {
   return (
-    <div className="py-20" id="testimonials">
-      <h1 className="lg:text-5xl font-bold text-center ">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
-      </h1>
+    <section className="py-20" id="testimonials">
+      <SectionTitle title="Kind words from" coloredPart="satisfied clients" />
       <div className="flex flex-col items-center justify-center max-lg:mt-10 mt-10">
         <InfiniteMovingCards
           items={items}
@@ -14,7 +12,7 @@ const Testimonials = () => {
           speed="slow"
         />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -3,6 +3,7 @@ import Navbar from "@/app/_components/navbar";
 import Grid from "@/app/_components/grid";
 import RecentProjects from "@/app/_components/recent_projects";
 import Testimonials from "@/app/_components/testimonials";
+import Experience from "@/app/_components/experience";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Testimonials/>
+        <Testimonials />
+        <Experience />
       </div>
     </div>
   );

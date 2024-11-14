@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="h-svh pt-36 pb-20" id="home">
+    <section className="h-svh pt-36 pb-20" id="home">
       <div>
         <Spotlight
           className="h-svh md:-top-20 md:-left-32 -top-40 -left-10"
@@ -42,7 +42,7 @@ const Hero = () => {
           <BorderMagicButton title="Show my work" position="right" icon={<FaLocationArrow/>} />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

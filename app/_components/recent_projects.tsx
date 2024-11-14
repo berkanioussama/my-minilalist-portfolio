@@ -3,14 +3,12 @@
 import { PinContainer } from "@/components/ui/3d-pin";
 import { projects } from "@/data/projects";
 import { FaLocationArrow } from "react-icons/fa6";
+import SectionTitle from "@/app/_components/section_title";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
-      <h1 className="lg:text-5xl font-bold text-center">
-        A small selection of {""}
-        <span className="text-purple">recent projects</span>
-      </h1>
+    <section className="py-20" id="projects">
+      <SectionTitle title="A small selection of" coloredPart="recent projects" />
       <div className="flex flex-wrap gap-x-24 gap-y-8 items-center justify-center p-4 mt-10">
         {projects.map((project) => (
           <div key={project.id} className="flex items-center justify-center sm:w-[570px] w-[80vw] lg:min-h-[32.5rem] sm:h-[41rem] h-[32rem]">
@@ -60,7 +58,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
  
