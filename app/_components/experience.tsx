@@ -1,6 +1,6 @@
 import SectionTitle from "@/app/_components/section_title";
 import { Button } from "@/components/ui/moving-border";
-import { workExperience } from "@/data/workExperience";
+import { workExperience } from "@/data/work_experience";
 
 const Experience = () => {
   return (
