@@ -4,6 +4,7 @@ import Grid from "@/app/_components/grid";
 import RecentProjects from "@/app/_components/recent_projects";
 import Testimonials from "@/app/_components/testimonials";
 import Experience from "@/app/_components/experience";
+import Approach from "@/app/_components/approach";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <RecentProjects />
         <Testimonials />
         <Experience />
+        <Approach />
       </div>
     </div>
   );
