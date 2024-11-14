@@ -4,9 +4,9 @@ import { socialMedia } from "@/data/social_media";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 text-center" id="contact">
+    <footer className="w-full pt-20 pb-10 text-center overflow-hidden" id="contact">
       <div className="absolute left-0 -bottom-72 w-full min-h-96">
-        <img src="/images/footer-grid.svg" alt="grid" className="w-full h-full opacity-60"/>
+        <img src="/images/footer-grid.svg" alt="grid" className="w-full h-full opacity-70"/>
       </div>
       <div className="flex flex-col items-center">
         <h2 className="xl:text-6xl lg:text-4xl md:text-3xl text-2xl font-bold lg:max-w-[45vw] md:max-w-[65vw] max-w-[90vw]">
