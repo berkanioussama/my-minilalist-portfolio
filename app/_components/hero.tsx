@@ -1,5 +1,3 @@
-'use client'
-
 import BorderMagicButton from "@/components/ui/border_magic_button";
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
